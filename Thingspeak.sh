@@ -18,8 +18,6 @@ sudo apt-get -y install libxml2-dev libxslt-dev git-core curl rubygems
 
 sudo apt-get -y install ruby2.1 ruby2.1-dev
 
-Sudo apt-get -y autoremove
-
 ## Install thingspeak
 
 git clone https://github.com/vortex469/thingspeak
