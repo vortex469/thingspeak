@@ -12,13 +12,13 @@ sudo apt-get update
 
 sudo apt-get -y upgrade
 
-sudo apt-get -y install build-essential mysql-server mysql-client libmysqlclient-dev libssl1.0-dev libsqlite-dev sqlite-devel
+sudo apt-get -y install build-essential mysql-server mysql-client libmysqlclient-dev libssl-dev libsqlite-dev
 
 sudo apt-get -y install libxml2-dev libxslt-dev git-core curl rubygems
 
 sudo apt-get -y install ruby2.1 ruby2.1-dev
 
-
+Sudo apt-get -y autoremove
 
 ## Install thingspeak
 
@@ -29,6 +29,8 @@ cd thingspeak
 gem install minitest -v '4.7.5'
 
 gem install json -v '1.8.1'
+
+gem install nokogiri -- --use-system-libraries
 
 gem install bundler
 
