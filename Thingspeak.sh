@@ -30,7 +30,13 @@ gem install minitest -v '4.7.5'
 
 gem install json -v '1.8.1'
 
-gem install nokogiri -- --use-system-libraries
+gem install nokogiri
+
+gem install tzinfo-data
+
+gem install tzinfo
+
+gem install uglifier
 
 gem install bundler
 
@@ -43,3 +49,4 @@ rake db:create
 rake db:schema:load
 
 rails server webrick
+
