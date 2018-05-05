@@ -12,7 +12,7 @@ sudo apt-get update
 
 sudo apt-get -y upgrade
 
-sudo apt-get -y install build-essential mysql-server mysql-client libmysqlclient-dev libssl-dev libsqlite-dev
+sudo apt-get -y install build-essential mysql-server mysql-client libmysqlclient-dev libssl-dev libsqlite3-dev
 
 sudo apt-get -y install libxml2-dev libxslt-dev git-core curl rubygems
 
